@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "OZ – Design-Time Accessibility Assistant",
-    "updated": "2026-01-10",
+    "updated": "2026-05-20",
     "mvp": "Text Field – E2E",
     "repo": "github.com/1haim/figma-oz",
     "version": "2.0",
@@ -21,7 +21,7 @@
         ],
         "metrics": {
           "accuracy": 0.85,
-          "coverage": 1,
+          "coverage": 0,
           "avgConfidence": 0.85
         }
       },
@@ -36,20 +36,20 @@
           "Streaming results to UI"
         ],
         "metrics": {
-          "checksImplemented": 42,
+          "checksImplemented": 0,
           "checksPerComponent": {
-            "textField": 14,
-            "button": 5,
-            "checkbox": 3,
-            "dropdown": 3,
-            "radio": 3,
-            "switch": 3,
-            "badge": 2,
-            "avatar": 2,
-            "card": 3,
-            "modal": 4
+            "textField": 0,
+            "button": 0,
+            "checkbox": 0,
+            "dropdown": 0,
+            "radio": 0,
+            "switch": 0,
+            "badge": 0,
+            "avatar": 0,
+            "card": 0,
+            "modal": 0
           },
-          "coverage": 1
+          "coverage": 0
         }
       },
       {
@@ -117,7 +117,7 @@
         }
       }
     ],
-    "overallCompletion": 0.5,
+    "overallCompletion": 0.16666666666666666,
     "currentPillar": "scan"
   },
   "components": [
@@ -542,7 +542,10 @@
   ],
   "coverageMatrix": {
     "textField": {
-      "implemented": [
+      "implemented": [],
+      "wired": [],
+      "tested": [],
+      "missing": [
         "TF-01",
         "TF-02",
         "TF-03",
@@ -557,167 +560,98 @@
         "TF-12",
         "TF-13",
         "TF-14"
-      ],
-      "wired": [
-        "TF-01",
-        "TF-02",
-        "TF-03",
-        "TF-04",
-        "TF-05",
-        "TF-06",
-        "TF-07",
-        "TF-08",
-        "TF-09",
-        "TF-10",
-        "TF-11",
-        "TF-12",
-        "TF-13",
-        "TF-14"
-      ],
-      "tested": [
-        "TF-01",
-        "TF-02",
-        "TF-03",
-        "TF-04",
-        "TF-05",
-        "TF-06",
-        "TF-07",
-        "TF-08",
-        "TF-09",
-        "TF-10",
-        "TF-11",
-        "TF-12",
-        "TF-13",
-        "TF-14"
-      ],
-      "missing": []
+      ]
     },
     "button": {
-      "implemented": [
+      "implemented": [],
+      "wired": [],
+      "tested": [],
+      "missing": [
         "BL-01",
         "BL-02",
         "BL-03",
         "BL-04",
         "BL-05"
-      ],
-      "wired": [
-        "BL-01",
-        "BL-02",
-        "BL-03",
-        "BL-04",
-        "BL-05"
-      ],
-      "tested": [
-        "BL-01",
-        "BL-02",
-        "BL-03",
-        "BL-04",
-        "BL-05"
-      ],
-      "missing": []
+      ]
     },
     "checkbox": {
-      "implemented": [
+      "implemented": [],
+      "wired": [],
+      "tested": [],
+      "missing": [
         "CB-01",
         "CB-02",
         "CB-03"
-      ],
-      "wired": [
-        "CB-01",
-        "CB-02",
-        "CB-03"
-      ],
-      "tested": [
-        "CB-01",
-        "CB-02",
-        "CB-03"
-      ],
-      "missing": []
+      ]
     },
     "dropdown": {
-      "implemented": [
+      "implemented": [],
+      "wired": [],
+      "tested": [],
+      "missing": [
         "SC-01",
         "SC-02",
         "SC-03"
-      ],
-      "wired": [
-        "SC-01",
-        "SC-02",
-        "SC-03"
-      ],
-      "tested": [
-        "SC-01",
-        "SC-02",
-        "SC-03"
-      ],
-      "missing": []
+      ]
     },
     "radio": {
-      "implemented": [
-        "RB-01",
-        "RB-02",
-        "RB-03"
-      ],
-      "wired": [
-        "RB-01",
-        "RB-02",
-        "RB-03"
-      ],
+      "implemented": [],
+      "wired": [],
       "tested": [],
-      "missing": []
+      "missing": [
+        "RB-01",
+        "RB-02",
+        "RB-03"
+      ]
     },
     "switch": {
-      "implemented": [
-        "SW-01",
-        "SW-02",
-        "SW-03"
-      ],
-      "wired": [
-        "SW-01",
-        "SW-02",
-        "SW-03"
-      ],
+      "implemented": [],
+      "wired": [],
       "tested": [],
-      "missing": []
+      "missing": [
+        "SW-01",
+        "SW-02",
+        "SW-03"
+      ]
     },
     "badge": {
-      "implemented": [
+      "implemented": [],
+      "wired": [],
+      "tested": [],
+      "missing": [
         "BD-01",
         "BD-02"
-      ],
-      "wired": [],
-      "tested": [],
-      "missing": []
+      ]
     },
     "avatar": {
-      "implemented": [
-        "AV-01",
-        "AV-02"
-      ],
+      "implemented": [],
       "wired": [],
       "tested": [],
-      "missing": []
+      "missing": [
+        "AV-01",
+        "AV-02"
+      ]
     },
     "card": {
-      "implemented": [
+      "implemented": [],
+      "wired": [],
+      "tested": [],
+      "missing": [
         "CD-01",
         "CD-02",
         "CD-03"
-      ],
-      "wired": [],
-      "tested": [],
-      "missing": []
+      ]
     },
     "modal": {
-      "implemented": [
+      "implemented": [],
+      "wired": [],
+      "tested": [],
+      "missing": [
         "MD-01",
         "MD-02",
         "MD-03",
         "MD-04"
-      ],
-      "wired": [],
-      "tested": [],
-      "missing": []
+      ]
     }
   },
   "phases": [
@@ -1120,7 +1054,7 @@
       {
         "id": "event-001",
         "type": "component_identified",
-        "timestamp": "2026-01-10T22:57:52.364Z",
+        "timestamp": "2026-05-20T23:00:08.838Z",
         "component": "textField",
         "confidence": 0.87,
         "method": "local"
@@ -1133,7 +1067,7 @@
         "component": "textField",
         "message": "TF-08 (Error Messages) not implemented",
         "severity": "medium",
-        "timestamp": "2026-01-10T22:57:52.364Z"
+        "timestamp": "2026-05-20T23:00:08.838Z"
       }
     ]
   },
@@ -2804,8 +2738,8 @@
       "percentage": 0.9615384615384616
     },
     "pillars": {
-      "identify": 1,
-      "scan": 1,
+      "identify": 0,
+      "scan": 0,
       "fix": 0,
       "handoff": 0,
       "usability": 1,
