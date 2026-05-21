@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "1.0",
-    "lastUpdated": "2026-05-21T00:44:23.013Z",
+    "lastUpdated": "2026-05-21T00:44:28.904Z",
     "engineVersion": "2.0",
     "description": "קובץ מרכזי לסינכרון בין הפרויקט לדשבורד. Cursor מעדכן את הקובץ הזה, script דוחף לדשבורד.",
     "syncScript": "node dashboard-sync/sync-to-dashboard.cjs"
@@ -18,9 +18,9 @@
   },
   "status": {
     "blockers": [],
-    "lastContextDump": "2026-05-20T23:42:49.101Z",
+    "lastContextDump": "2026-05-21T00:44:25.658Z",
     "buildStatus": "success",
-    "lastBuild": "2026-05-21T00:44:23.014Z",
+    "lastBuild": "2026-05-21T00:44:28.905Z",
     "workingTree": "dirty",
     "branch": "main",
     "ahead": 0,
